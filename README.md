@@ -24,19 +24,13 @@ On se propose de crypter un message composé par des mots séparés par un seul 
 
  
 
-
+N=6
 | Step | T1[0]   | T1[1]   | T1[2]   | T1[3]   | T1[4]   | T1[5]   | T1[6]   |
 |------|---------|---------|---------|---------|---------|---------|---------|
-| T[1] | B       | o       | n       | j       | o       | u       | r       |
-| T[2] | BS      | oa      | nm      | ji      | o*      | u*      | r*      |
-| T[3] | BSj     | oa'     | nma     | jii     | o**     | u**     | r**     |
-| T[4] | BSjf    | oa'i    | nman    | jiii    | o***    | u***    | r***    |
-| T[5] | BSjfm   | oa'io   | nmann   | jiii*   | o****   | u****   | r****   |
-| T[6] | BSjfmt  | oa'ior  | nmanna  | jiii*v  | o****a  | u****i  | r****l  |
+| T[0] | B       | o       | n       | j       | o       | u       | r       |
+| T[1] | BS      | oa      | nm      | ji      | o*      | u*      | r*      |
+| T[2] | BSj     | oa'     | nma     | jii     | o**     | u**     | r**     |
+| T[3] | BSjf    | oa'i    | nman    | jiii    | o***    | u***    | r***    |
+| T[4] | BSjfm   | oa'io   | nmann   | jiii*   | o****   | u****   | r****   |
+| T[5] | BSjfmt  | oa'ior  | nmanna  | jiii*v  | o****a  | u****i  | r****l  |
 # Le message crypté sera alors "BSjfmt oa'ior nmanna jiii*v o****a u****i r****i"
-T[0] = Bonjour
-T[1] = Sami***
-T[2] = j'ai***
-T[3] = fini***
-T[4] = mon****
-T[5] = travail

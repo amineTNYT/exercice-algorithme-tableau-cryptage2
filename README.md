@@ -34,3 +34,5 @@ On se propose de crypter un message composé par des mots séparés par un seul 
 | T[5] | BSjfm   | oa'io   | nmann   | jiii*   | o****   | u****   | r****   |
 | T[6] | BSjfmt  | oa'ior  | nmanna  | jiii*v  | o****a  | u****i  | r****l  |
 # Le message crypté sera alors "BSjfmt oa'ior nmanna jiii*v o****a u****i r****i"
+T[0]		T[1]		T[2]		T[3]		T[4]		T[5]
+Bonjour	Sami***	j'ai***	fini***	mon****	travail

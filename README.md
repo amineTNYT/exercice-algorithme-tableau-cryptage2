@@ -22,22 +22,15 @@ On se propose de crypter un message composé par des mots séparés par un seul 
 
 | T= | Bonjour | Sami | j'ai | fini | mon | travail |
 
-**Etape 2 :** Ajouter le caractère "*" autant de fois pour obtenir des mots dont la longueur de chacun est égale à celle du mot le plus long.
+ 
 
-Etant donné que "Bonjour" est le mot le plus long du message (7 caractères), on obtient le tableau T suivant :
 
-| T= | Bonjour | Sami*** | j'ai*** | fini*** | mon**** | travail |
-
-**Etape 3 :** Répartir les lettres de T[1] dans T1
-
-| T= | B    | o   | n    | j    | o   | u    | r    |
-
-**Etape 4 :** Répartir les lettres de T[2] dans T1
-
-| T1 = | BS    | oa   | nm    | ji    | o*   | u*   | r*   |
-
-**Etapes suivantes :** Répartir le reste des mots de T dans T1
-
-| T1 = | BSjfmt | oa'ior | nmanna | jiii*v | o****a | u****i | r****i |
-
-Le message crypté sera alors "BSjfmt oa'ior nmanna jiii*v o****a u****i r****i"
+| Step | T1[0]   | T1[1]   | T1[2]   | T1[3]   | T1[4]   | T1[5]   | T1[6]   |
+|------|---------|---------|---------|---------|---------|---------|---------|
+| T[1] | B       | o       | n       | j       | o       | u       | r       |
+| T[2] | BS      | oa      | nm      | ji      | o*      | u*      | r*      |
+| T[3] | BSj     | oa'     | nma     | jii     | o**     | u**     | r**     |
+| T[4] | BSjf    | oa'i    | nman    | jiii    | o***    | u***    | r***    |
+| T[5] | BSjfm   | oa'io   | nmann   | jiii*   | o****   | u****   | r****   |
+| T[6] | BSjfmt  | oa'ior  | nmanna  | jiii*v  | o****a  | u****i  | r****l  |
+# Le message crypté sera alors "BSjfmt oa'ior nmanna jiii*v o****a u****i r****i"

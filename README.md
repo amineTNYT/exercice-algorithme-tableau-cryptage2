@@ -23,14 +23,38 @@ On se propose de crypter un message composé par des mots séparés par un seul 
 | T= | Bonjour | Sami | j'ai | fini | mon | travail |
 
  
+											
+											
+	Bonjour	Sami***	j'ai***	fini***	mon****	travail					
+	 T[0]	T[1]	T[2]	T[3]	T[4]	T[5]					
+											
+											
+											
+											
+											
+											
+	       B	      o	    n	j	o	u	      r				
+	 T[0]	T[1]	T[2]	T[3]	T[4]	T[5]	T[6]				
+											
+											
+											
+											
+											
+											
+											
+											
+			       BS	      oa	    nm	ji	o*	u*	      r*		
+			 T1[0]	T1[1]	T1[2]	T1[3]	T1[4]	T1[5]	T1[6]		
+											
+											
+											
+											
+											
+				       BSj	      oa'	    nma	jii	o**	u**	      r**	
+				 T1[0]	T1[1]	T1[2]	T1[3]	T1[4]	T1[5]	T1[6]	
+											
+				       BSjf	      oa'i	    nman	jiii	o***	u***	      r***	
+				 T1[0]	T1[1]	T1[2]	T1[3]	T1[4]	T1[5]	T1[6]	
+											
+<img width="1249" height="793" alt="image" src="https://github.com/user-attachments/assets/fd9ea602-e1b4-49f2-9a19-7a0601f82c90" />
 
-N=6
-| Step | T1[0]   | T1[1]   | T1[2]   | T1[3]   | T1[4]   | T1[5]   | T1[6]   |
-|------|---------|---------|---------|---------|---------|---------|---------|
-| T[0] | B       | o       | n       | j       | o       | u       | r       |
-| T[1] | BS      | oa      | nm      | ji      | o*      | u*      | r*      |
-| T[2] | BSj     | oa'     | nma     | jii     | o**     | u**     | r**     |
-| T[3] | BSjf    | oa'i    | nman    | jiii    | o***    | u***    | r***    |
-| T[4] | BSjfm   | oa'io   | nmann   | jiii*   | o****   | u****   | r****   |
-| T[5] | BSjfmt  | oa'ior  | nmanna  | jiii*v  | o****a  | u****i  | r****l  |
-# Le message crypté sera alors "BSjfmt oa'ior nmanna jiii*v o****a u****i r****i"

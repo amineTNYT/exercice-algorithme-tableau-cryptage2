@@ -24,4 +24,7 @@ On se propose de crypter un message composé par des mots séparés par un seul 
 										
 										
 <img width="1145" height="947" alt="image" src="https://github.com/user-attachments/assets/eab0debb-f656-4ed5-addd-64dc1de03807" />
+																					
+															
+<img width="2705" height="545" alt="image" src="https://github.com/user-attachments/assets/7944e76f-9c9a-45a1-b976-d525794dfe3a" />
 
